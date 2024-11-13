@@ -1,10 +1,18 @@
 \section{Future research agenda}
 - Coming from perception
 
-- Currently following the line of research of nerf pixel nerf, gaussian splatting and mvsplat (technical, perception)
-
+\subsection{Line of research NeRF}
+- Currently following the line of research of nerf \cite{mildenhall2021nerf} pixel nerf, gaussian splatting and mvsplat (technical, perception)
+- Both NeRF scene representation and 3D Gaussian representation can represent scenes in a hybrid way. First arbitray 2D views 
+of the scene can be rendered which is the main goal of novel view synthesis. Second, the 3D representation can be used for
+3D reconstruction and scene understanding. NerF can directly be queried for 3D points and their color. Depending on the target representation the 3D Gaussian representation
+can be mapped to voxel or point cloud representations.
+\subsection{}
 - Self supervised representation learning and pretraining (conceptual)
+    --> Masked modeling for point clouds, voxel grids, and images (technical)
 
-- Curriculum learning in combination with regularizing the learning process (conceptual))
+- Curriculum learning in combination with regularizing the learning process (conceptual) with multi task learning (technical)
 \section{Student mentoring}
-- Thesis students
+- Looking forward Thesis students
+\section{Advisors}
+- \color{red}{Valada and Geiger} \color{black}
